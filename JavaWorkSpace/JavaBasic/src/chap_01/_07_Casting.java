@@ -38,7 +38,12 @@ public class _07_Casting {
 		
 //		숫자를 문자열로
 		String s1 = String.valueOf(93); // String은 참조형 변수
-		s1 = Integer.toString(100); // 문자를 숫자열로
+		s1 = Integer.toString(100); 
 		
+//		문자열을 숫자열로
+		int i = Integer.parseInt("93"); // Integer은 정수에 관련
+		System.out.println(i);
+		double d = Double.parseDouble("98.8"); // Double은 실수에 관련
+		System.out.println(d);
 	}
 }
