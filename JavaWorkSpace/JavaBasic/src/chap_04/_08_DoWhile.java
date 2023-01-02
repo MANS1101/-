@@ -1,10 +1,7 @@
 package chap_04;
-
 public class _08_DoWhile {
-
 	public static void main(String[] args) {
-		
-		// 반복문 Do While
+		// 반복문 Do While 
 		
 		int distance = 25;
 		int move = 0;
@@ -31,5 +28,4 @@ public class _08_DoWhile {
 		} while (move + height < distance);
 		System.out.println("도착했습니다.");
 	}
-
 }
