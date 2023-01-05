@@ -10,7 +10,7 @@ public class _Exam_06 {
 	
 	public static void gugudan(int dan, int num) {
 		int danCopy;
-		for (danCopy = dan; dan <= num+danCopy; dan++) {
+		for (danCopy = dan; dan < num+danCopy; dan++) {
 			for (int j = 1; j <= 9; j++) {
 				System.out.println(dan + " * " + j + " = " + dan*j);
 			}
