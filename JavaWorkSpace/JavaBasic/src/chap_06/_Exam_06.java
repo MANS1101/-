@@ -12,7 +12,7 @@ public class _Exam_06 {
 		int danCopy;
 		for (danCopy = dan; dan <= num+dan; dan++) {
 			for (int j = 1; j <= 9; j++) {
-				System.out.println(dan + " * " + j + " = " + dna*j);
+				System.out.println(dan + " * " + j + " = " + d*j);
 			}
 		}
 	}
