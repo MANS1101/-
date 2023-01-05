@@ -10,11 +10,10 @@ public class _Exam_06 {
 	
 	public static void gugudan(int dan, int num) {
 		int danCopy;
-		for (danCopy=dan; i <= num+1; danCopy++) {
+		for (danCopy = dan; dan <= num+dan; dan++) {
 			for (int j = 1; j <= 9; j++) {
-				System.out.println(dan + " * " + j + " = " + dnaCopy*j);
+				System.out.println(dan + " * " + j + " = " + dna*j);
 			}
-			dan += 1;
 		}
 	}
 	
