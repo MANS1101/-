@@ -8,13 +8,14 @@ public class _03_Return {
 	}
 	
 	public static String getAddr() {
-		return "¼­¿ï½Ã °­³²±¸";
+		return "ì„œìš¸ì‹œ ê°•ë‚¨êµ¬";
 	}
 	public static void main(String[] args) {
-		// ¹İÈ¯°ª, return
+		// ë°˜í™˜ê°’, return
+		// void : ë¦¬í„´ê°’ì´ ì—†ìŒì„ ë‚˜íƒ€ëƒ„.
 		String contactNumber = getPhoneNumber();
-		System.out.println("È£ÅÚ ÀüÈ­¹øÈ£ : " + contactNumber);
-		System.out.println("È£ÅÚ ÁÖ¼Ò : " + getAddr());
+		System.out.println("í˜¸í…” ì „í™”ë²ˆí˜¸ : " + contactNumber);
+		System.out.println("í˜¸í…” ì£¼ì†Œ : " + getAddr());
 	}
 
 }
